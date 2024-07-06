@@ -1,0 +1,104 @@
+#contactFormContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    /* font-family : 'math'; */
+    background: #e7edfd;
+}
+
+.card.contact-us-form {
+    width: 30rem;
+    border: none;
+}
+
+#submit-button {
+    width: 100%;
+    background: #19875cf7;
+    border: 1px solid #19875cf7;
+    margin-top: 10px;
+}
+
+#contactUsForm label {
+    font-size: 11px
+}
+
+#contactUsForm input, #contactUsForm textarea {
+    border: 1px solid #bdbfc0;
+}
+
+/* #contactUsForm label {
+    font-size: 11px;
+} */
+
+#contactUsForm div {
+    margin-top: 5px;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: space-around;
+}
+
+.support-request {
+    height: 2.4rem;
+    padding: 8px;
+    border: 1px solid #bdbfc0;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.general-query {
+    padding: 8px;
+    border: 1px solid #bdbfc0;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.support-request .radio-label, .general-query .radio-label {
+    margin: 0 0 0 12px;
+}
+
+.requiredMsg {
+    display: none;
+    font-size: 11px;
+    color: red;
+}
+
+input:hover, textarea:hover {
+    border: 0.23vh solid #19875cf7 !important;
+}
+
+#general {
+    accent-color: #19875cf7;
+}
+
+#support {
+    accent-color: #19875cf7;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #19875cf7;
+}
+
+.toastHeader {
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .radio-group {
+        display: block;
+        justify-content: space-around;
+    }
+}
